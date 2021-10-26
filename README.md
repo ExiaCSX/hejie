@@ -6,7 +6,6 @@
 
 > 提醒： 滥用可能导致账户被BAN！！！  
 
-Heroku上部署v2ray，可更改传输协议vmess和vless，默认是vmess传输，部署时在v2ray protocol选项框改成你喜欢的协议即可．
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/ExiaCSX/kinto)
 
@@ -18,11 +17,11 @@ Heroku上部署v2ray，可更改传输协议vmess和vless，默认是vmess传输
 
 #### 客户端设置
 
-注意和服务端协议保持一致，选择vmess或者vless，其它照图填写：
+注意和服务端协议保持一致，选择，其它照图填写：
 
 ![v2ray](/img/kinto3.jpg)
 
-上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
+上图是443端口设置方法，当然你也可以设置80端口，不要打开就可以了，如下：
 
 ```
 地址(address) : appname.herokuapp.com	//appname替换成你的app名字
